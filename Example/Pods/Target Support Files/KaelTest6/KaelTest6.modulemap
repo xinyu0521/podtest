@@ -1,0 +1,6 @@
+framework module KaelTest6 {
+  umbrella header "KaelTest6-umbrella.h"
+
+  export *
+  module * { export * }
+}

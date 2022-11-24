@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KaelTest6'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of KaelTest6.'
+  s.version          = '1.0.1'
+  s.summary          = 'test pod'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/张欣宇/KaelTest6'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/xinyu0521/podtest.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '张欣宇' => 'lord_95@sina.com' }
-  s.source           = { :git => 'https://github.com/张欣宇/KaelTest6.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/xinyu0521/podtest.git', :tag => s.version.to_s }
+  s.swift_version = '5.5'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
+  
+  s.framework = 'Foundation'
 
   s.source_files = 'KaelTest6/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'KaelTest6' => ['KaelTest6/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

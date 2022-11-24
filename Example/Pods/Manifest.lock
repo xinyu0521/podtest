@@ -1,0 +1,16 @@
+PODS:
+  - KaelTest6 (0.1.0)
+
+DEPENDENCIES:
+  - KaelTest6 (from `../`)
+
+EXTERNAL SOURCES:
+  KaelTest6:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KaelTest6: aedab3f8b17d0d5949bbf0042dd030387847f066
+
+PODFILE CHECKSUM: 12f50084533686d56cd44ed1bb4b8f694d2c9488
+
+COCOAPODS: 1.11.3
